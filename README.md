@@ -20,7 +20,7 @@
 3. Configure SSH connection to Github, pull some repo to test connection;
 4. Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
 5. Add keyboard "United States-International";
-6. Install Visual Studio 2022 Professional and activate it;
+6. Install Visual Studio Professional 2022 and activate it;
 7. Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
 8. Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
