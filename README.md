@@ -16,6 +16,7 @@
   choco install microsoft-windows-terminal -y
   choco install powertoys -y
   choco install pyenv-win -y
+  choco install cmder -y
   ```
 3. Configure SSH connection to Github, pull some repo to test connection;
 4. Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
