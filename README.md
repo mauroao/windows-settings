@@ -15,6 +15,7 @@
   choco install microsoft-teams -y 
   choco install microsoft-windows-terminal -y
   choco install powertoys -y
+  choco install python --version=3.7.9 -y
   choco install pyenv-win -y
   choco install cmder -y
   ```
