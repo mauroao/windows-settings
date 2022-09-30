@@ -3,7 +3,7 @@
 1. Install Choco from [here](https://chocolatey.org/install);
 2. Install Apps using Choco on PowerShell as administrator:
   ```
-  Set-ExecutionPolicy Unrestricted
+  Set-ExecutionPolicy Unrestricted -Force
   choco install googlechrome -y
   choco install notepadplusplus -y
   choco install git -y
