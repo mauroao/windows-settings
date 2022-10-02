@@ -1,9 +1,22 @@
-# Windows Instalation
+# Windows configuration after clean install
 
-1. Install Choco from [here](https://chocolatey.org/install);
-2. Install Apps using Choco on PowerShell as administrator:
+## Windows Update
+
+- Run all windows updates;
+- Restart as many times as needed;
+
+## Chocolatey
+
+- Open Windows PowerShell as :warning: **administrator** :warning:;
+- Run this command:
   ```
   Set-ExecutionPolicy Unrestricted -Force
+  ```
+- Install Choco from [here](https://chocolatey.org/install);
+ 
+ ## Install programs
+ 
+ ```  
   choco install googlechrome -y
   choco install notepadplusplus -y
   choco install git -y
