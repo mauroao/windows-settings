@@ -58,5 +58,6 @@
 # Aditional items
   ```
   choco install cmder -y
+  choco install vlc -y
   choco install ffmpeg -y
   ```
