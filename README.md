@@ -7,30 +7,44 @@
 
 ## Chocolatey
 
-- Open Windows PowerShell as :warning: **administrator** :warning:;
+- Open Windows PowerShell as :warning:**administrator**:warning:;
 - Run this command:
   ```
   Set-ExecutionPolicy Unrestricted -Force
   ```
 - Install Choco from [here](https://chocolatey.org/install);
  
- ## Install programs
+ ## Install programs (1)
  
+- Open Windows PowerShell as :warning:**administrator**:warning:;
+- Run the commands below:
  ```  
   choco install googlechrome -y
   choco install notepadplusplus -y
   choco install git -y
   choco install 7zip -y
-  choco install autohotkey -y
   choco install vscode -y
+  choco install python --version=3.9.0 -y
   choco install nvm -y
+  ```
+- Restart;
+  
+## Install more programs (2)
+ 
+- Open Windows PowerShell as :warning:**administrator**:warning:;
+- Run the commands below:
+  ```
   choco install docker-desktop -y
-  choco install microsoft-teams -y 
   choco install microsoft-windows-terminal -y
   choco install powertoys -y
-  choco install python --version=3.9.0 -y
+  choco install autohotkey -y
+  choco install microsoft-teams -y 
   ```
-3. Configure SSH connection to Github, pull some repo to test connection;
+- Restart
+  
+## Do configurations 
+  
+- Configure SSH connection to Github, pull some repo to test connection;
   ```
   ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
   ```
