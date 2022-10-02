@@ -15,9 +15,7 @@
   choco install microsoft-teams -y 
   choco install microsoft-windows-terminal -y
   choco install powertoys -y
-  choco install python --version=3.7.9 -y
-  choco install pyenv-win -y
-  choco install cmder -y
+  choco install python --version=3.9.0 -y
   ```
 3. Configure SSH connection to Github, pull some repo to test connection;
 4. Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
@@ -26,4 +24,8 @@
 7. Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
 8. Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
-
+# Aditional items
+  ```
+  choco install cmder -y
+  choco install ffmpeg -y
+  ```
