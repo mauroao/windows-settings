@@ -52,6 +52,17 @@
 
 - Start -> type "Change Time zone";
 - (UTC-3:00) Brasilia;
+
+## Github
+
+- Configure SSH connection to Github, pull some repo to test connection;
+  ```
+  ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
+  ```
+  
+## Debloat
+
+- Debloat from here: https://github.com/Sycnex/Windows10Debloater
   
 ## Install more programs (2)
  
@@ -68,10 +79,7 @@
   
 ## Do configurations 
   
-- Configure SSH connection to Github, pull some repo to test connection;
-  ```
-  ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
-  ```
+
  
 4. Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
 5. Add keyboard "United States-International";
