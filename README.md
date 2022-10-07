@@ -29,6 +29,16 @@
   
   ```
 - Restart;
+
+## Google Chrome
+
+- Remove Edge shortcuts;
+- Open Chrome;
+- Make Chrome default browser;
+- Turn on Sync;
+- Pin Chrome;
+- Login google;
+- Login github;
   
 ## Install more programs (2)
  
