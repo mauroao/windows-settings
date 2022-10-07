@@ -67,8 +67,20 @@
   ```
   iwr -useb https://git.io/debloat|iex
   ```
+- Follow instructions and debloat all!
   > source: https://github.com/Sycnex/Windows10Debloater
+
+## Video Tools
+
+- Open Windows PowerShell as :warning:**administrator**:warning:;
+- Run the commands below:
+  ```
+  choco install vlc -y
+  choco install ffmpeg -y
   
+  ```
+
+
 ## Install more programs (2)
  
 - Open Windows PowerShell as :warning:**administrator**:warning:;
@@ -95,6 +107,4 @@
 # Aditional items
   ```
   choco install cmder -y
-  choco install vlc -y
-  choco install ffmpeg -y
   ```
