@@ -26,6 +26,7 @@
   choco install vscode -y
   choco install python --version=3.9.0 -y
   choco install nvm -y
+  
   ```
 - Restart;
   
