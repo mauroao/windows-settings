@@ -84,7 +84,16 @@
   ```
 - Start -> type "Default Apps";
 - Make VLC dafault video app;
-  
+
+## Windows Terminal
+
+- Open Microsoft Store;
+- Install Windows Terminal;
+
+## Install Fonts
+
+- Install NERD FONTS from [here](https://github.com/mauroao/dotfiles/blob/master/fonts);
+
 ## Dotnet Development
 
 - Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
@@ -98,8 +107,6 @@
 - Run the commands below:
   ```
   choco install docker-desktop -y
-  choco install microsoft-windows-terminal -y
-
   choco install microsoft-teams -y 
   ```
 - Restart
