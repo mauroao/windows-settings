@@ -24,8 +24,11 @@
   choco install git -y
   choco install 7zip -y
   choco install vscode -y
+  choco install cmder -y
   choco install python --version=3.9.0 -y
   choco install nvm -y
+  choco install powertoys -y
+  choco install autohotkey -y
   
   ```
 - Restart;
@@ -81,6 +84,13 @@
   ```
 - Start -> type "Default Apps";
 - Make VLC dafault video app;
+  
+## Dotnet Development
+
+- Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
+- Install Visual Studio Professional 2022 and activate it;
+- Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
+- Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
 ## Install more programs (2)
  
@@ -89,23 +99,10 @@
   ```
   choco install docker-desktop -y
   choco install microsoft-windows-terminal -y
-  choco install powertoys -y
-  choco install autohotkey -y
+
   choco install microsoft-teams -y 
   ```
 - Restart
-  
-## Do configurations 
-  
 
- 
-4. Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
-5. Add keyboard "United States-International";
-6. Install Visual Studio Professional 2022 and activate it;
-7. Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
-8. Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
-# Aditional items
-  ```
-  choco install cmder -y
-  ```
+
