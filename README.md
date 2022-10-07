@@ -79,7 +79,8 @@
   choco install ffmpeg -y
   
   ```
-
+- Start -> type "Default Apps";
+- Make VLC dafault video app;
 
 ## Install more programs (2)
  
