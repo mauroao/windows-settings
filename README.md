@@ -62,7 +62,12 @@
   
 ## Debloat
 
-- Debloat from here: https://github.com/Sycnex/Windows10Debloater
+- Open Windows PowerShell as :warning:**administrator**:warning:;
+- Run the commands below:
+  ```
+  iwr -useb https://git.io/debloat|iex
+  ```
+  > source: https://github.com/Sycnex/Windows10Debloater
   
 ## Install more programs (2)
  
