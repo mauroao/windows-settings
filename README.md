@@ -39,6 +39,19 @@
 - Pin Chrome;
 - Login google;
 - Login github;
+
+## Keyboard
+
+- Start -> type "Language Settings";
+- Preferred Languages;
+- English (United States);
+- Options;
+- Remove additional keyboards. There must be only one: "United States-International QUERTY";
+
+## Timezone
+
+- Start -> type "Change Time zone";
+- (UTC-3:00) Brasilia;
   
 ## Install more programs (2)
  
