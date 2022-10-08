@@ -80,6 +80,7 @@
   ```
   choco install vlc -y
   choco install ffmpeg -y
+  choco install handbrake -y
   
   ```
 - Start -> type "Default Apps";
