@@ -90,6 +90,11 @@
 - Open Microsoft Store;
 - Install Windows Terminal;
 
+## Don't Sleep!!
+
+- Start -> type "Power & sleep settings";
+- Tell to Windows never sleeps;
+
 ## Install Fonts
 
 - Install NERD FONTS from [here](https://github.com/mauroao/dotfiles/blob/master/fonts);
