@@ -1,4 +1,4 @@
-# Windows configuration after clean install
+# Configuration after a clean windows install
 
 ## Windows Update
 
@@ -24,7 +24,6 @@
   choco install git -y
   choco install 7zip -y
   choco install vscode -y
-  choco install cmder -y
   choco install python --version=3.9.0 -y
   choco install nvm -y
   choco install powertoys -y
@@ -50,11 +49,17 @@
 - English (United States);
 - Options;
 - Remove additional keyboards. There must be only one: "United States-International QUERTY";
+- Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
 
 ## Timezone
 
 - Start -> type "Change Time zone";
 - (UTC-3:00) Brasilia;
+
+## Windows Terminal
+
+- Open Microsoft Store;
+- Install Windows Terminal;
 
 ## Github
 
@@ -62,6 +67,7 @@
   ```
   ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
   ```
+- Follow instructions [here](https://gist.github.com/raduserbanescu/b5c90780a8a0fc17165e2eb42c51d4fe) and [here](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/);
   
 ## Debloat
 
@@ -86,11 +92,6 @@
 - Start -> type "Default Apps";
 - Make VLC dafault video app;
 
-## Windows Terminal
-
-- Open Microsoft Store;
-- Install Windows Terminal;
-
 ## Don't Sleep!!
 
 - Start -> type "Power & sleep settings";
@@ -102,7 +103,6 @@
 
 ## Dotnet Development
 
-- Configure keyboard from [here](https://github.com/mauroao/keyboard-layout);
 - Install Visual Studio Professional 2022 and activate it;
 - Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
 - Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
