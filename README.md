@@ -69,6 +69,19 @@
   ```
 - Follow instructions [here](https://gist.github.com/raduserbanescu/b5c90780a8a0fc17165e2eb42c51d4fe) and [here](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/);
   
+## Git Powershell integration
+
+- Open Windows PowerShell as :warning:**administrator**:warning:;
+- Run these commands:
+
+```powershell
+Set-ExecutionPolicy Unrestricted -Force
+Install-Module posh-git -Scope CurrentUser -Force
+Import-Module posh-git
+Add-PoshGitToProfile -AllHosts
+```
+> from https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell 
+  
 ## Debloat
 
 - Open Windows PowerShell as :warning:**administrator**:warning:;
