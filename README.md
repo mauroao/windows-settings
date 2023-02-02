@@ -76,7 +76,7 @@
 
 ```powershell
 Set-ExecutionPolicy Unrestricted -Force
-Install-Module posh-git -Scope CurrentUser -Force
+Install-Module posh-git -Scope AllUsers -Force
 Import-Module posh-git
 Add-PoshGitToProfile -AllHosts
 ```
