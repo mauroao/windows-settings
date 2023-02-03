@@ -18,7 +18,7 @@
  
 - Open Windows PowerShell as :warning:**administrator**:warning:;
 - Run the commands below:
- ```  
+   ```  
   choco install googlechrome -y
   choco install notepadplusplus -y
   choco install git -y
@@ -28,7 +28,6 @@
   choco install nvm -y
   choco install powertoys -y
   choco install autohotkey -y
-  
   ```
 - Restart;
 
@@ -74,14 +73,46 @@
 - Open Windows PowerShell as :warning:**administrator**:warning:;
 - Run these commands:
 
-```powershell
-Set-ExecutionPolicy Unrestricted -Force
-Install-Module posh-git -Scope AllUsers -Force
-Import-Module posh-git
-Add-PoshGitToProfile -AllHosts
-```
-> from https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell 
+  ```powershell
+  Set-ExecutionPolicy Unrestricted -Force
+  Install-Module posh-git -Scope AllUsers -Force
+  Import-Module posh-git
+  Add-PoshGitToProfile -AllHosts
+  ```
+  > from https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell 
+
+- Change `C:\Users\maurooliveira\Documents\WindowsPowerShell\profile.ps1` as folows:
+  ```powershell
+  Import-Module posh-git
   
+  function prompt {
+      $origLastExitCode = $LASTEXITCODE
+  
+      $prompt = "$($ExecutionContext.SessionState.Path.CurrentLocation)"
+  
+      if ($status = Get-GitStatus -Force) {
+          $prompt += " ["
+          if ($status.HasWorking) {
+              $prompt += (Write-GitWorkingDirStatusSummary $status -NoLeadingSpace) +
+                         "$(Write-GitWorkingDirStatus $status) "
+          }
+          if ($status.HasWorking -and $status.HasIndex) {
+              $prompt += "| "
+          }
+          if ($status.HasIndex) {
+              $prompt += "$(Write-GitIndexStatus $status -NoLeadingSpace) "
+          }
+          $prompt += "$(Write-GitBranchStatus $status -NoLeadingSpace)$(Write-GitBranchName $status)]"
+      }
+  
+      $prompt += Write-Prompt "`r`nλ " -ForegroundColor Orange
+  
+      $LASTEXITCODE = $origLastExitCode
+      $prompt
+  }
+  ```
+  > from https://github.com/dahlbyk/posh-git
+
 ## Debloat
 
 - Open Windows PowerShell as :warning:**administrator**:warning:;
