@@ -150,7 +150,7 @@
 - Install Visual Studio Professional 2022 and activate it;
 - Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
   ```
-  inoremap jj <Esc>
+  inoremap jk <Esc>
   ```
 - Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
