@@ -150,7 +150,11 @@
 - Install Visual Studio Professional 2022 and activate it;
 - Install VsVim from [here](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview). Configure `.vsvimrc` file;
   ```
-  inoremap jk <Esc>
+  imap jj <Esc>
+  imap jk <Esc>
+  set clipboard=unnamedplus
+  set ignorecase
+  set scrolloff=10
   ```
 - Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
