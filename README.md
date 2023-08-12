@@ -55,6 +55,13 @@
 - Start -> type "Change Time zone";
 - (UTC-3:00) Brasilia;
 
+## Install BGInfo
+
+- https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo
+- Put BGInfo shortcut at startup folder:
+  - Start -> Run -> shell:startup
+    
+
 ## Windows Terminal
 
 - Open Microsoft Store;
