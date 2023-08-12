@@ -61,6 +61,12 @@
 - Put BGInfo shortcut at startup folder:
   - Start -> Run -> shell:startup
     
+## Rename PC
+
+- Select Start > Settings > System > About;
+- Select Rename this PC;
+- Change it to: "pc-gamer".
+
 
 ## Windows Terminal
 
