@@ -94,7 +94,7 @@
   ```
   > from https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell 
 
-- Change `C:\Users\maurooliveira\Documents\WindowsPowerShell\profile.ps1` as folows:
+- Change `C:\Users\mauro\Documents\WindowsPowerShell\profile.ps1` as folows:
   ```powershell
   Import-Module posh-git
   
