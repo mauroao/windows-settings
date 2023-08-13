@@ -80,6 +80,12 @@
   ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
   ```
 - Follow instructions [here](https://gist.github.com/raduserbanescu/b5c90780a8a0fc17165e2eb42c51d4fe) and [here](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/);
+- Configure username and e-mail:
+  ```
+  git config --global user.name "Mauro Oliveira"
+  git config --global user.email "mauro.anselmo.oliveira@gmail.com"
+  ```
+
   
 ## Git Powershell integration
 
