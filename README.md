@@ -97,6 +97,7 @@
   ```
   git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
   ```
+  > From: https://stackoverflow.com/questions/11941175/git-fetch-pull-clone-hangs-on-receiving-objects
   
 ## Git Powershell integration
 
