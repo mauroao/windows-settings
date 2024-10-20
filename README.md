@@ -93,6 +93,10 @@
   [pull]
     rebase = false
   ```
+- Run this if windows 11:
+  ```
+  git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
+  ```
   
 ## Git Powershell integration
 
