@@ -186,6 +186,11 @@
   set clipboard=unnamedplus
   set ignorecase
   set scrolloff=10
+  nnoremap K :vsc Edit.QuickInfo<CR>
+  nnoremap gr :vsc Edit.FindAllReferences<CR>
+  nnoremap gI :vsc Edit.GoToImplementation<CR>
+  nnoremap gs :vsc Edit.ParameterInfo<CR>
+
   ```
 - Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
 
