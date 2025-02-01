@@ -199,6 +199,12 @@
   set clipboard=unnamedplus
   set ignorecase
   set scrolloff=10
+
+  nnoremap K :action ShowQuickDocumentation<CR>
+  nnoremap gr :action FindUsages<CR>
+  nnoremap gI :action GotoImplementation<CR>
+  nnoremap gs :action ParameterInfo<CR>
+  
   ```  
 - Install DotNet Core 8.0 SDK;
 
