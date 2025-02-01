@@ -192,7 +192,15 @@
   nnoremap gs :vsc Edit.ParameterInfo<CR>
 
   ```
-- Install DotNet Core 3.1 SDK and Dotnet 6.0 SDK;
+- Install Rider and IdeaVim. Configure `.ideavimrc` file;
+  ```
+  imap jj <Esc>
+  imap jk <Esc>
+  set clipboard=unnamedplus
+  set ignorecase
+  set scrolloff=10
+  ```  
+- Install DotNet Core 8.0 SDK;
 
 ## Install more programs (2)
  
