@@ -190,6 +190,7 @@
   nnoremap gr :vsc Edit.FindAllReferences<CR>
   nnoremap gI :vsc Edit.GoToImplementation<CR>
   nnoremap gs :vsc Edit.ParameterInfo<CR>
+  nnoremap <C-o> :vsc View.NavigateBackward<CR>
 
   ```
 - Install Rider and IdeaVim. Configure `.ideavimrc` file;
