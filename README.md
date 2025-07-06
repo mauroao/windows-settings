@@ -206,8 +206,7 @@
   nnoremap K :action ShowQuickDocumentation<CR>
   nnoremap gr :action FindUsages<CR>
   nnoremap gI :action GotoImplementation<CR>
-  nnoremap gs :action ParameterInfo<CR>
-  
+  nnoremap gK :action ParameterInfo<CR>
   ```  
 - Install DotNet Core 8.0 SDK;
 
