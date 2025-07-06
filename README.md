@@ -191,8 +191,10 @@
   nnoremap gI :vsc Edit.GoToImplementation<CR>
   nnoremap gs :vsc Edit.ParameterInfo<CR>
   nnoremap <C-o> :vsc View.NavigateBackward<CR>
-
+  nnoremap <C-i> :vsc View.NavigateForward<CR>
+  nnoremap gK    :vsc Edit.ParameterInfo<CR>
   ```
+  > On Visual Studio, go to [Tools] → [Options] → [Environment] → [Keyboard] and remove conflitant shortcuts
 - Install Rider and IdeaVim. Configure `.ideavimrc` file;
   ```
   imap jj <Esc>
