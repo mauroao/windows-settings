@@ -14,7 +14,7 @@
   ```
 - Install Choco from [here](https://chocolatey.org/install);
  
- ## Install programs (1)
+## Install programs (1)
  
 - Open Windows PowerShell as :warning:**administrator**:warning:;
 - Run the commands below:
@@ -67,7 +67,6 @@
 - Select Rename this PC;
 - Change it to: "pc-gamer".
 
-
 ## Windows Terminal
 
 - Open Microsoft Store;
@@ -75,10 +74,8 @@
 
 ## Github
 
-- Configure SSH connection to Github, pull some repo to test connection;
-  ```
-  ssh-keygen -t rsa -b 4096 -C "mauro.anselmo.oliveira@gmail.com"
-  ```
+- Configure SSH connection to Github (get ssh keys and put then on `.ssh` folder). Pull some repo to test connection;
+
 - Follow instructions [here](https://gist.github.com/raduserbanescu/b5c90780a8a0fc17165e2eb42c51d4fe) and [here](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/);
 - Create a `.gitconfig` file at home directory and fill with the above content:
   ```
@@ -106,6 +103,7 @@
 
   ```powershell
   Set-ExecutionPolicy Unrestricted -Force
+  Install-Module PSReadLine -Force -SkipPublisherCheck -Scope CurrentUser
   Install-Module posh-git -Scope AllUsers -Force
   Import-Module posh-git
   Add-PoshGitToProfile -AllHosts
@@ -144,15 +142,15 @@
   ```
   > from https://github.com/dahlbyk/posh-git
 
+- Open terminal, run this command: `code $PROFILE`. Fill with this:
+  ```
+  Set-PSReadLineOption -PredictionViewStyle ListView
+  Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+  ``` 
+
 ## Debloat
 
-- Open Windows PowerShell as :warning:**administrator**:warning:;
-- Run the commands below:
-  ```
-  iwr -useb https://git.io/debloat|iex
-  ```
-- Follow instructions and debloat all!
-  > source: https://github.com/Sycnex/Windows10Debloater
+Follow instructions form here: https://github.com/ChrisTitusTech/winutil
 
 ## Video Tools
 
